@@ -6,3 +6,11 @@
 'h'
 'm'
 Key.enter
+'x'
+'i'
+'n'
+Key.space
+'c'
+'h'
+'a'
+'o'
