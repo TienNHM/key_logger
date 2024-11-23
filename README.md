@@ -3,6 +3,8 @@
 
 > A simple key logger that logs all the keys pressed by the user and saves them in a text file.
 
+> Link demo: [📌 D E M O 🔗](web/download.html)
+
 ## Installation
 
 ### 1. Clone the repository
